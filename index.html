@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f1d3db">
+  <meta name="description" content="Celebra con Kiara Antonella sus XV años y su Confirmación el sábado 14 de noviembre de 2026 a las 18:00.">
+  <title>Kiara Antonella · Mis XV años y mi Confirmación</title>
+  <link rel="stylesheet" href="estilo.css?v=3">
+  <script src="invitacion.js" defer></script>
+</head>
+<body>
+  <svg class="symbols" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <symbol id="dove" viewBox="0 0 64 64">
+        <path d="M43 24c3-6 10-7 14-2l4 1-5 4c-1 13-11 23-26 23-9 0-17-4-22-10l12 1C12 35 8 24 8 14c7 9 16 13 26 15C25 22 23 12 24 6c7 10 15 14 19 18Z"/>
+      </symbol>
+      <symbol id="pin" viewBox="0 0 64 64">
+        <path d="M32 58S13 37 13 24a19 19 0 0 1 38 0c0 13-19 34-19 34Z"/><circle cx="32" cy="24" r="7"/>
+      </symbol>
+    </defs>
+  </svg>
+  <audio id="music" src="assets/tercer-cielo.mp3" preload="none" loop></audio>
+  <section class="cover" id="cover" aria-labelledby="cover-title">
+    <div class="sparkles cover-sparkles" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="stationery">
+      <img class="cover-bow" src="assets/lazo-saten-rosa.webp" alt="" aria-hidden="true">
+      <p class="eyebrow">UNA DOBLE CELEBRACIÓN</p>
+      <h1 id="cover-title">Kiara<br>Antonella</h1>
+      <p class="occasion">Mis XV años <span>&amp;</span> mi Confirmación</p>
+      <div class="rule" aria-hidden="true">♡</div>
+      <p class="date-stamp">14 · NOVIEMBRE · 2026</p>
+      <button type="button" class="button" id="open">Abrir mi invitación <span aria-hidden="true">♡</span></button>
+    </div>
+  </section>
+  <button type="button" id="music-toggle" class="music" hidden aria-pressed="false">♫ Música</button>
+  <main id="invitation" hidden>
+    <header class="hero section" id="inicio">
+      <div class="sparkles hero-sparkles" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+      <p class="eyebrow">MIS XV AÑOS Y MI CONFIRMACIÓN</p>
+      <h2 class="name" tabindex="-1">Kiara Antonella</h2>
+      <figure class="portrait">
+        <img class="portrait-bow" src="assets/lazo-saten-rosa.webp" alt="" aria-hidden="true">
+        <img src="assets/kiara.webp" alt="Retrato de Kiara Antonella con lentes" width="720" height="1280">
+      </figure>
+      <p class="message">Hoy celebro la alegría de mis quince años y un paso muy especial en mi fe. Me encantaría compartir este día contigo.</p>
+      <blockquote class="keepsake">
+        <span aria-hidden="true">✧</span>
+        <p>«Con la fe que me guía y el cariño de quienes me han visto crecer, hoy abrazo la ilusión de mis quince años».</p>
+      </blockquote>
+    </header>
+    <section class="section family" aria-labelledby="family-title">
+      <svg class="icon" aria-hidden="true"><use href="#dove"/></svg>
+      <p class="eyebrow">CON AMOR Y GRATITUD</p>
+      <h2 id="family-title">Me acompañan</h2>
+      <div class="family-grid">
+        <div><p class="role">Mi mamá</p><p class="person">Rosario Zelada</p></div>
+        <div><p class="role">Mi madrina de Confirmación</p><p class="person">Jhoselyn Zelada</p></div>
+      </div>
+    </section>
+    <section class="section memories" aria-labelledby="memories-title">
+      <p class="eyebrow">RECUERDOS DE MI INFANCIA</p>
+      <h2 id="memories-title">Antes de mis XV</h2>
+      <div class="album">
+        <figure><img src="assets/infancia-1.webp" alt="Kiara de pequeña con un vestido rosado" width="1020" height="1360" loading="lazy"></figure>
+        <figure><img src="assets/infancia-2.webp" alt="Kiara de pequeña con una vincha rosada" width="1020" height="1360" loading="lazy"></figure>
+      </div>
+    </section>
+    <section class="section event" aria-labelledby="event-title">
+      <div class="event-card">
+        <svg class="icon" aria-hidden="true"><use href="#pin"/></svg>
+        <p class="eyebrow">CELEBREMOS JUNTOS</p>
+        <h2 id="event-title">Te espero</h2>
+        <p class="event-date"><span>SÁBADO</span><strong>14</strong><span>NOVIEMBRE · 2026</span></p>
+        <p class="hour"><time datetime="2026-11-14T18:00:00-04:00">18:00</time></p>
+        <p class="address">Av. Fuerza Aérea y calle Todos Santos</p>
+        <a class="button" href="https://maps.google.com/?q=-17.418877,-66.166359" target="_blank" rel="noopener">Ver ubicación <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+    <footer class="section closing">
+      <img class="footer-bow" src="assets/lazo-saten-rosa.webp" alt="" aria-hidden="true">
+      <p class="message">Gracias por ser parte de un día que guardaré con mucho cariño.</p>
+      <p class="signature">Kiara Antonella</p>
+      <a class="back" href="#inicio">Volver al inicio ↑</a>
+      <p class="credit">Invitaciones digitales</p>
+      <a class="digitalpro" href="https://wa.me/59179352293" target="_blank" rel="noopener">DigitalPro · 79352293 ↗</a>
+    </footer>
+  </main>
+</body>
+</html>
